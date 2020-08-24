@@ -1,0 +1,9 @@
+
+#nav-bar{
+  position : fixed;
+  top : 0px;
+}
+ .flex-container{
+   display : inline-flex;
+   box-sizing : border-box;
+ }

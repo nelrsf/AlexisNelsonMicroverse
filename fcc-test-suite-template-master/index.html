@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body class = "flex-container">
 
     <header id = "header">
       <img id = "header-img" src = https://yt3.ggpht.com/a/AATXAJxHHP_h8bUovc1qC4c07sVXxVbp3gwDEg-iq8gbFQ=s900-c-k-c0xffffffff-no-rj-mo>
       
       <br>
       <br>
-      <nav id="nav-bar">
+      <nav id="nav-bar" class="top-bar fixed">
         <button class="nav-link" href="#video">link 1</button>
         <button class="nav-link" href="#form">link 2</button>
         <button class="nav-link" href="#header">link 3</button>
@@ -21,8 +21,15 @@
     </header>
     <video id = "video" src = https://www.youtube.com/watch?v=dhoWEXeBia8> 
     <form id = "form" action=https://www.freecodecamp.com/email-submit> 
-    <input id = "email" placeholder = "Please enter your email" type = "email" name="email"> 
-    <input id = "submit" type = "submit" value="attribute" > </form> 
+    <input id = "email" placeholder = "Please enter your email" type = "email" name="email" class = "flex-container"> 
+    <input id = "submit" type = "submit" value="attribute" > </form>
+    <style>@media screen and (max-width: 992px) {
+      body {
+        background-color: blue;
+      }
+    }</style> 
+
+    <label>"Welcome to the landing page"</label>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
